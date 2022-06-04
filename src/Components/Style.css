@@ -1,0 +1,198 @@
+.awssld {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    height: 600px;
+    max-width: 100%;
+}
+.single-intro {
+    padding: 0 52px;
+    margin-bottom: 30px;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.single-intro .intro-title{
+    position: relative;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.single-intro .intro-title .intro-count{
+    font-family: var(--body-font);
+    color: #CFD3DE;
+    font-size: 70px;
+    font-weight: 700;
+
+}
+
+.single-intro .intro-title .intro-cat{
+    position: absolute;
+    background: #ffffff;
+    padding: 0 8px;
+    margin-left: -12px;
+    margin-top: 4px;
+    font-family: ui-monospace;
+    font-weight: 900;
+    font-size: 30px;
+    color: #053761;
+}
+a.intro-cat{
+    text-decoration: none;
+    outline: none;
+    color: inherit
+}
+.single-intro p {
+    margin-bottom: 0;
+    color: #666;
+    width: 80%;
+    font-size: 17px;
+}
+.hcard-title{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    color: #032b4c;
+}
+.card-price {
+    margin-top: 5%;
+    font-size: 35px;
+    font-weight: 600;
+    color: #214461;
+}
+.section-title{
+    font-size: 40px;
+    color: rgb(5, 55, 97);
+    font-weight: 700;
+    font-family: ui-monospace;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.footer-container{
+    background-image: url("Footer/footerimg.png");
+    padding-bottom: 5%;
+    padding-top: 7%;
+    background-color: #053761;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.footer-title{
+    padding-bottom: 4%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: system-ui;
+}
+.social-icon{
+    font-size: 20px;
+    color: #02b5ff;
+}
+.Copyright-container{
+    color: #fff;
+    background-color: #022745;
+    padding: 20px;
+    text-align: center;
+}
+.news-title{
+    font-weight: 600;
+    font-size: 55px;
+    color: #053761;
+    font-family: ui-monospace;
+}
+.news-area{
+    padding-top: 3%;
+    background: #f9f9f9;
+    margin-top: 5%;
+    padding-bottom: 2%;
+
+}
+.news-icon{
+        border: 1px solid #c0c0c0;
+        height: 55px !important;
+        width: 60px !important;
+        padding: 15px;
+        color: #02b5ff;
+}
+.news-button{
+    background: #02b5ff !important;
+    color: #fff !important;
+    padding: 15px !important;
+    width: 20% !important;
+}
+.breadcrumb-area{
+    background-image: url(./AboutUs/1.png);
+    padding: 5%;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.breadcrumb-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-bottom: 1%;
+    font-weight: 700;
+    color: #fff;
+    font-family: ui-monospace;
+}
+.single-intro.style-two {
+    padding: 0 15px;
+    margin-bottom: 30px;
+
+}
+h2.title {
+    font-weight: 700;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 50px;
+    font-family: ui-monospace;
+    color: #053761;
+}
+.thumb{
+    margin-bottom: 20px;
+
+}
+.intro-title {
+    font-weight: 600 !important;
+    font-family: ui-monospace;
+    color: #053761;
+    font-size: 26px;
+    padding-bottom: 6px;
+}
+.aboutus-area {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.menu-item {
+    color: #053761;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 15%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .single-intro {
+        padding: 0 0;
+        margin-bottom: 35px;
+    }
+    .single-intro .intro-title .intro-count{
+        font-size: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
